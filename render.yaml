@@ -7,7 +7,7 @@ services:
     startCommand: "gunicorn app:app -b 0.0.0.0:$PORT"
     envVars:
       - key: ADMIN_SECRET
-        value: adminlinhdz
+        value: ndm03
       - key: DB_PATH
         value: store_profiles.db
       - key: REQ_TIMEOUT
